@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 const goalSchema = mongoose.Schema({
     text: {
-        String, 
+        type: String, 
     required: [true, 'Please add a text value']
 
     }
